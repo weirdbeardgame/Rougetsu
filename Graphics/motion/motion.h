@@ -1,7 +1,7 @@
-#ifndef MOTION_H
-#define MOTION_H
+#ifndef ROUGETSU_MOTION_H
+#define ROUGETSU_MOTION_H
 
-#include "../graph3d/sgd_types.h"
+#include "sgd_types.h"
 
 typedef u_short ANI_CODE;
 
@@ -318,4 +318,4 @@ struct ANI_CTRL
   /* 0x170 */ NECK_CTRL_WORK neck_work;
 };
 
-#endif// MOTION_H
+#endif// ROUGETSU_MOTION_H

@@ -1,7 +1,7 @@
-#ifndef MAN_DATA_H
-#define MAN_DATA_H
-#include "../graph3d/sgd_types.h"
-#include "../motion/motion.h"
+#ifndef ROUGETSU_MAN_DATA_H
+#define ROUGETSU_MAN_DATA_H
+#include "../../Graphics/graph3d/sgd_types.h"
+#include "../../Graphics/motion/motion.h"
 
 struct MAN_DATA
 {// 0x30
@@ -38,7 +38,7 @@ struct MAN_DATA
   int GetSndBankNo();
   void AccessoryDraw();
 
- protected:
+  //protected:
   int GetAnmNo();
   int SetupIn();
   void InitIn();
@@ -48,4 +48,4 @@ struct MAN_DATA
   void InitializeIn();
 };
 
-#endif// MAN_DATA_H
+#endif// ROUGETSU_MAN_DATA_H
