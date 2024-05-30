@@ -34,6 +34,9 @@ add_executable(Rougetsu
         render/Vu1Mem.cpp
         render/Vu1Mem.h
         graph3d/g3d_types.h
+        plyr/man_data.h
+        plyr/plyr_mdl.h
+        motion/motion.h
 )
 
 target_link_libraries(Rougetsu glad_gl_core_mx_33 glfw glm::glm)
